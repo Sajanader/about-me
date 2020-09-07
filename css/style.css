@@ -1,0 +1,54 @@
+p{
+border-width: 15px;
+margin: 20%;
+padding: 200px;
+padding-top: 230px;
+}
+body{background-image: url(https://st2.depositphotos.com/5311082/11669/v/950/depositphotos_116696182-stock-illustration-dream-catcher-catch-your-dreams.jpg);
+background-repeat: no-repeat;
+
+background-color: pink;
+animation-name: animation;
+animation-duration: 200s;
+
+
+}
+
+
+
+@keyframes animation {
+  5%   {background-color: lightgrey;}
+  30%  {background-color: lightgreen;}
+  40%  {background-color: rgb(245, 188, 197);}
+  100% {background-color: pink;}
+}
+
+
+
+
+
+.bird {
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
+	background-size: auto 100%;
+	width: 88px;
+	height: 125px;
+	will-change: background-position;
+	
+	animation-name: fly-cycle;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+	
+	.bird {
+		animation-duration: 1s;
+		animation-delay: -0.1s;		
+    }
+
+	
+
+@keyframes fly-cycle {
+	
+	100% {
+		background-position: -900px 0;
+	}
+}
