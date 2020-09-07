@@ -25,7 +25,7 @@ animation-duration: 200s;
 
 
 
-
+/* this code is inspired from website https://www.mockplus.com/blog/post/css-animation-examples but it is adjusted a bit  */
 
 .bird {
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
