@@ -1,20 +1,25 @@
-p{
-border-width: 15px;
-margin: 20%;
-padding: 200px;
-padding-top: 230px;
+p{color: rgb(51, 3, 97);
+width: 300px;
+margin: 25%;
+padding: 150px;
+padding-top: 0px;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+white-space: wrap;
 }
 body{background-image: url(https://st2.depositphotos.com/5311082/11669/v/950/depositphotos_116696182-stock-illustration-dream-catcher-catch-your-dreams.jpg);
 background-repeat: no-repeat;
-
 background-color: pink;
+margin: 30px;;
 animation-name: animation;
 animation-duration: 200s;
 
 
 }
 
+header{float: right;
 
+}
 
 @keyframes animation {
   5%   {background-color: lightgrey;}
