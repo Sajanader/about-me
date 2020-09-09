@@ -98,5 +98,22 @@ for (var k = 0; k < color.length; k++) {
         answer = false;
     }
 }
-if (answer === true) { aler("that is right"); }
-alert("my favorite colors is ['green', 'black','pink','mouve','purpel',] ");
+if (answer === true) { alert("that is right"); }
+else if(answer===false){alert('your answer is false'); }
+alert("my favorite colors is ['green', 'black','pink','mouve','purpel',] ")
+function n1() {
+    var user = prompt("Do you love learning coding yes or no?");
+    if (user === "yes") {
+            alert("you will be a great programmer in the future");
+            console.log('you will be a great programmer in the fututer');
+        }
+    }
+for (var k = 0; k < color.length; k++) {
+    if (favoriteColor  === color[k]) {
+        answer = true;
+        break;
+    }
+    else {
+        answer = false;
+    }
+}
