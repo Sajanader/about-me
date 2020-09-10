@@ -1,24 +1,29 @@
-p{color: rgb(51, 3, 97);
+p{color: rgb(62, 2, 119);
 width: 300px;
 margin: 25%;
 padding: 150px;
 padding-top: 0px;
 font-size: medium;
-font-family: Arial, Helvetica, sans-serif;
+font-family: fantasy;
 white-space: wrap;
+word-spacing: 2px;
 }
 body{background-image: url(https://st2.depositphotos.com/5311082/11669/v/950/depositphotos_116696182-stock-illustration-dream-catcher-catch-your-dreams.jpg);
 background-repeat: no-repeat;
 background-color: pink;
 margin: 30px;;
 animation-name: animation;
-animation-duration: 200s;
-
+animation-duration: 10s;
+animation-iteration-count: infinite;
 
 }
 
 header{float: right;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	row-gap: 20px;
 
+}
+h3{color: blueviolet;
 }
 
 @keyframes animation {
@@ -30,9 +35,9 @@ header{float: right;
 
 
 
-/* this code is inspired from website https://www.mockplus.com/blog/post/css-animation-examples but it is adjusted a bit  */
+ /* this code is inspired from website https://www.mockplus.com/blog/post/css-animation-examples but it is adjusted a bit  */
 
-.bird {
+ .bird {
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
 	background-size: auto 100%;
 	width: 88px;
@@ -56,4 +61,4 @@ header{float: right;
 	100% {
 		background-position: -900px 0;
 	}
-}
+} 
