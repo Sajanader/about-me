@@ -22,6 +22,7 @@ if (choice === "yes") {
 }
 
 else if (choice == "no") { alert("that makes your life useless"); }
+
 var socialMedia = prompt("Are you active on social media yes or no ?");
 switch (socialMedia.toLocaleLowerCase()) {
     case socialMedia = "yes":
@@ -49,8 +50,6 @@ switch (game) {
     default: alert("try it, It is really exciting and there are gifts if you guess true");
         break;
 }
-alert("you score is" + count++);
-console.log("you score is" + count++);
 
 alert('let\s play guessing game I will ask you questions and you have four tryings to guess. be attention and do not forget answer by using number :)');
 
@@ -59,6 +58,7 @@ for (var i = 0; i < 4; i++) {
     var weight = prompt('guess what is my weight in KG?');
     if (weight === '60') {
         alert("oh my god you are a divin person");
+        count++;
         break;
     }
     if (weight > '70') {
@@ -82,6 +82,7 @@ for (var k = 0; k < color.length; k++) {
     var favoriteColor = prompt("guess What are your favorite colors?")
     if (favoriteColor === color[k]) {
         alert("your answer is true");
+        count++;
         break;
     }
     else {
@@ -89,3 +90,4 @@ for (var k = 0; k < color.length; k++) {
     }
 }
 alert("the right answer is ['green', 'black', 'pink', 'mouve', 'purpel',]");
+alert("you score is" + count++);
