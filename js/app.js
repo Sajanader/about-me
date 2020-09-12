@@ -76,10 +76,10 @@ for (var i = 0; i < 4; i++) {
 }
 alert('The answer is 60. I am fit ;))');
 
-var color = ['green', 'black', 'pink', 'mouve', 'purpel',];
+
 var color = ['green', 'black', 'pink', 'mouve', 'purpel', "white",];
 for (var k = 0; k < color.length; k++) {
-    var favoriteColor = prompt("guess What are your favorite colors?")
+    var favoriteColor = prompt("guess What are your favorite colors?");
     if (favoriteColor === color[k]) {
         alert("your answer is true");
         count++;
