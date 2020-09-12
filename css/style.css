@@ -1,12 +1,15 @@
 p{color: rgb(62, 2, 119);
 width: 300px;
-margin: 25%;
-padding: 150px;
-padding-top: 0px;
+margin-left:350px;
+margin-top:370px;
+margin-bottom:125px;
+padding-left: 150px;
+padding-top: 15px;
 font-size: medium;
 font-family: fantasy;
 white-space: wrap;
 word-spacing: 2px;
+font-family: 'Dancing Script', cursive;;
 }
 body{background-image: url(https://st2.depositphotos.com/5311082/11669/v/950/depositphotos_116696182-stock-illustration-dream-catcher-catch-your-dreams.jpg);
 background-repeat: no-repeat;
@@ -14,17 +17,45 @@ background-color: pink;
 margin: 30px;;
 animation-name: animation;
 animation-duration: 10s;
-animation-iteration-count: infinite;
+animation-iteration-count: infinite;}
+
+header {float: right;
+	font-family: 'Dancing Script', cursive;
+	}
+ul.sequer{list-style-type: square; 
+	position: fixed;
+color: rgb(75, 3, 75);}
+ol.alpha{list-style-type: decimal; 
+border-style:solid 
 
 }
 
-header{float: right;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	row-gap: 20px;
-
-}
-h3{color: blueviolet;
-}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
 
 @keyframes animation {
   5%   {background-color: lightgrey;}
